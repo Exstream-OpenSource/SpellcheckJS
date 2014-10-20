@@ -1,3 +1,7 @@
+HP is electing to distribute the source code under MPL 2.0, with the exception
+of code from GNU gettext which is licensed under LGPL version 2 or later.
+
+
 Mozilla Public License, version 2.0
 
 1. Definitions
