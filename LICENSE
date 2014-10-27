@@ -2,14 +2,17 @@ HP is electing to distribute the source code under MPL 2.0, with the exception
 of code from GNU gettext which is licensed under LGPL version 2 or later and
 with the exception of code from ICU whose license can be found in icu_license.txt.
 
-icu-hunspell.js uses portions of ICU and portions of Hunspell.  
+icu-hunspell.js uses portions of ICU and portions of Hunspell.  A list of the
+functions that call ICU and a list of the functions that call Hunspell follow.
 
-The following functions from icu-hunspell.js use ICU.
+The following functions from icu-hunspell.js use ICU and are available under
+the ICU license which can be found in icu_license.txt.
 Module._setDataDirectory()
 Module._configureBreakIterator()
 Module._findBoundaries()
 
-The following functions from icu-hunspell.js use Hunspell.
+The following functions from icu-hunspell.js use Hunspell and are available
+under MPL 2.0 whose contents can be found below.
 Module._loadDictionary()
 Module._check()
 Module._getSuggestions()
